@@ -94,7 +94,7 @@ onMounted(() => {
             <input type="submit" value="Add todo" />
           </form>
           
-          {{ todos_asc }}
+          <!-- {{ todos_asc }} --> 
       </section>
 
       <section class="todo-list">
