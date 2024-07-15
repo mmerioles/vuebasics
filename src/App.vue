@@ -23,8 +23,9 @@ const addTodo = () => {
     createdAt: new Date().getTime()
   })
 
-  input_category = ''
+  input_content.value = ''
   input_category.value = null
+
   console.log("addTodo");
 }
 
